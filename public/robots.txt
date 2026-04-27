@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block admin-related paths
+Disallow: /api/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://www.togetherprosperity.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
